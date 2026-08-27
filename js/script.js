@@ -147,7 +147,7 @@
 
 // DECIMO PRIMEIRO EXERCICIO
 
-const nota = Number(prompt("Digite uma nota entre 0 e 100:"));
+/*const nota = Number(prompt("Digite uma nota entre 0 e 100:"));
 
 let conceito;
 
@@ -165,5 +165,5 @@ if (nota >= 90 && nota <= 100) {
   conceito = "Nota inválida";
 }
 
-console.log(`Conceito: ${conceito}`);
+console.log(`Conceito: ${conceito}`);*/
 
