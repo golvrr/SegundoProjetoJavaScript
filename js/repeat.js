@@ -1,5 +1,5 @@
 //while(true){
-  //  console.log("Ao infinito e... Além!");
+//  console.log("Ao infinito e... Além!");
 //}
 
 // WHILE (enquanto)
@@ -95,7 +95,7 @@ do{
     console.log("isso VAI aparecer pelo menos 1x")
 }while(num < 5)*/
 
-const numeroSecreto = Math.floor(Math.random()* 10)+1;
+/*const numeroSecreto = Math.floor(Math.random()* 10)+1;
 ;
 
 let palpite;
@@ -126,4 +126,143 @@ else if (palpite < numeroSecreto){
      alert("Muito Alto! Tente um número menor.")
 }
 
-}while(palpite != numeroSecreto)
+}while(palpite != numeroSecreto)*/
+
+//FOR -> LOOP
+
+//let conta= 0; variavel de controle.
+
+//conta < 10 - analise de condicao
+
+//conta++ o que acontece com a variavel de controle
+
+/*for (let conta= 0; conta <10; conta++ ){
+        console.log(conta)
+}
+
+console.log("O loop terminou. ")
+
+//TABUADA
+
+const numero = Number(prompt("Tabuada de qual numero?"))
+
+if(Number.isNaN(numero)){
+    console.log("Numero invalido.")
+}
+else{
+//console.log(TABUADA DO " + numero)
+    console.log(`\n TABUADA DO ${numero} \n`)
+
+    for(let i = 1; i<=10; i++ )
+    {
+        const resultado = numero * i
+
+console.log(`${numero} x $ {i} = ${resultado}`)
+
+    }
+
+
+
+}*/
+
+//Exiba numeros pares de 1 a 20
+
+/*console.log("Numeros pares de 0 a 20: \n`")
+
+for(let pares= 0; pares <=20; pares += 2 ){
+    console.log(pares)
+
+}*/
+
+//CONTAGEM REGRESSIVA
+
+/*console.log("Lancamento em: \n`")
+
+for(let conta = 10; conta >= 1; conta--)
+{
+    console.log(conta + "...")
+}
+
+  console.log("Decolar!")*/
+
+//DESAFIO
+
+/*
+crie um programa que mostre os numeros de 1 a 3
+Cada numero deve aparecer 3 vezes na mesma linha
+
+saida esperada
+1 1 1
+2 2 2
+3 3 3
+
+DICA
+use um for para controlar os numeros
+e outro para repetir cada numero
+*/
+
+/*for (let i = 1; i <= 3; i++) {
+   let linha = "";
+
+   for (let i = 1; i <= 3; i++) {
+       linha += i;
+   if (i < 3) {
+           linha += " ";
+       }
+   }
+
+   console.log(linha);
+}*/
+
+//DESENHAR PIRAMIDE DE ASTERISCOs
+
+
+/*for( let numero = 1; numero <=1; numero++ ){
+
+        for (let vezes = 1; vezes <=1;vezes++ ) {
+            
+            let resultado = "";
+
+            for (let vezes = 1; vezes <=5; vezes++) {
+                resultado += "* "
+
+                console.log(resultado)
+                
+            }
+
+        }
+    }*/
+
+        //1  ATIVIDADE
+
+      /*  for (let numero = 1; numero <= 10; numero++) {
+  console.log(numero);
+}*/
+
+//2 ATIVIDADE
+/*
+let numero = Number(prompt("Digite um número:"));
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}*/
+
+//3 ATIVIDADE
+
+/*const n = Number(prompt("Digite um número inteiro positivo:"));
+
+let soma = 0;
+
+for (let i = 1; i <= n; i++) {
+    soma += i;
+}*/
+
+console.log(soma);
+
+//4 ATIVIDADE
+
+for (let i = 2; i <= 50; i += 2) {
+  console.log(i);
+}
+
+
