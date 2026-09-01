@@ -35,7 +35,7 @@ while(tempo > 0){
 
     console.log(tempo)
 
-   // tempo = tempo - 1 rwtira 1 do tempo
+   // tempo = tempo - 1 retira 1 do tempo
 
    tempo-- //retira 1 do tempo
 
@@ -245,24 +245,107 @@ let numero = Number(prompt("Digite um número:"));
 
 for (let i = 1; i <= 10; i++) {
     console.log(`${numero} x ${i} = ${numero * i}`);
-}*/
+}
 
 //3 ATIVIDADE
 
-/*const n = Number(prompt("Digite um número inteiro positivo:"));
+const n = Number(prompt("Digite um número inteiro positivo:"));
 
 let soma = 0;
 
 for (let i = 1; i <= n; i++) {
     soma += i;
-}*/
+}
 
 console.log(soma);
 
 //4 ATIVIDADE
 
-for (let i = 2; i <= 50; i += 2) {
+/*for (let i = 2; i <= 50; i += 2) {
   console.log(i);
+}*/
+
+//5 ATIVIDADE
+
+/*let numero = Math.floor(Math.random() * 100) + 1;
+let palpite;
+let tentativas = 0;
+
+while (palpite != numero) {
+    palpite = Number(prompt("Digite um palpite:"));
+    tentativas++;
+
+    if (palpite > numero) {
+        alert("Palpite " + tentativas + ": o número é menor!");
+    } else if (palpite < numero) {
+        alert("Palpite " + tentativas + ": o número é maior!");
+    } else {
+        alert("Parabéns! Você acertou em " + tentativas + " palpites!");
+    }
+}*/
+
+//6 ATIVIDADE
+
+/*let numero = Number(prompt("Digite um número inteiro:"));
+
+for (let i = numero; i >= 0; i--) {
+    console.log(i);
+}*/
+
+// 7 ATIVIDADE
+
+/*let numero = Number(prompt("Digite um número inteiro positivo:"));
+
+let soma = 0;
+
+while (numero > 0) {
+    soma += numero % 10;
+    numero = Math.floor(numero / 10);
 }
 
+console.log(soma);*/
 
+// 8 ATIVIDADE
+
+/*let numero = Number(prompt("Digite um número:"));
+let fatorial = 1;
+let conta = "";
+
+for (let i = numero; i >= 1; i--) {
+    fatorial *= i;
+    conta += i;
+
+    if (i > 1) {
+        conta += " × ";
+    }
+}
+
+console.log(conta + " = " + fatorial);*/
+
+//9 ATIVIDADE
+
+/*let numero = prompt("Digite um número inteiro positivo:");
+
+let invertido = "";
+
+for (let i = numero.length - 1; i >= 0; i--) {
+    invertido += numero[i];
+}
+
+console.log(invertido);*/
+
+//10 ATIVIDADE
+
+/*for (let numero = 1; numero <= 1000; numero++) {
+    let soma = 0;
+
+    for (let divisor = 1; divisor < numero; divisor++) {
+        if (numero % divisor === 0) {
+            soma += divisor;
+        }
+    }
+
+    if (soma === numero) {
+        console.log(numero);
+    }
+}*/
