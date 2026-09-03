@@ -267,7 +267,8 @@ console.log(soma);
 
 //5 ATIVIDADE
 
-/*let numero = Math.floor(Math.random() * 100) + 1;
+/*
+let numero = Math.floor(Math.random() * 100) + 1;
 let palpite;
 let tentativas = 0;
 
